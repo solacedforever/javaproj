@@ -65,6 +65,8 @@ let film = {
 */
 function addBoxOffice(){
     // Your answer here:
+    film.boxoffice = 269061;
+    return (film );
 }
 
 /*
@@ -72,6 +74,8 @@ function addBoxOffice(){
 */
 function addActor(){
     // Your answer here:
+    film.actors= "Yukiko Shimazaki";
+    return (film);
 }
 
 /*
@@ -79,6 +83,7 @@ function addActor(){
 */
 function getLosses(){
     // Your answer here:
+    let losses (film.boxoffice - film.budget)
 }
 
 
