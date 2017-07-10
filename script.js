@@ -123,8 +123,8 @@ let second = [ "think", "stand", "cheese", "break", "numinous", "mouse", "close"
 function union(){
     let same = [];
     // Your answer here
-    for (var i=0; i<letterVals.length; i++){
-    }
-    if (first === second)
+      for (var i=0; i<first.length; i++){
+      for(var i=0,i<second.length;i++)
+      if (first === second)
     same.push();
   }
